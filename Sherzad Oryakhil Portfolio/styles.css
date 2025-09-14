@@ -1,0 +1,169 @@
+/* Custom Styles */
+:root {
+  --primary-color: #0d6efd;
+  --secondary-color: #192b3d;
+  --accent-color: #192b3d;
+  --light-color: #ecf0f1;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: var(--secondary-color);
+  padding: 15px 0;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--light-color);
+}
+
+.navbar-brand span {
+  color: var(--primary-color);
+}
+
+.nav-link {
+  color: var(--light-color) !important;
+  font-weight: 500;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+.navbar-toggler {
+  border: none;
+  color: var(--light-color);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.quote-btn {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.quote-btn:hover {
+  background-color: #0d6efd;
+  transform: translateY(-2px);
+}
+
+/* Sticky Navbar Effect */
+.navbar-sticky {
+  padding: 8px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+  padding: 60px 0 20px;
+}
+
+.footer-title {
+  font-weight: 500;
+  margin-bottom: 25px;
+  position: relative;
+  font-size: 1.5rem;
+}
+
+.footer-title:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 50px;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: var(--light-color);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.footer-links a:hover {
+  color: var(--primary-color);
+  padding-left: 5px;
+}
+
+.footer-contact-info {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-contact-info i {
+  margin-right: 15px;
+  color: var(--primary-color);
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  margin-right: 10px;
+  transition: all 0.3s;
+}
+
+.social-icons a:hover {
+  background-color: var(--primary-color);
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .quote-btn {
+    margin-top: 10px;
+    display: inline-block;
+  }
+}
