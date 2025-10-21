@@ -237,6 +237,16 @@ html {
     background-color: var(--light-bg);
 }
 
+.btn-outline-primary:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.contact-section {
+    background-color: var(--light-bg);
+}
+
 .social-links a {
     display: inline-flex;
     align-items: center;
@@ -290,3 +300,4 @@ footer {
     border-radius: 50%;
     background-color: var(--secondary-color);
 }
+
