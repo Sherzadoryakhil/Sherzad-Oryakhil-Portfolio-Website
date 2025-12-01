@@ -130,8 +130,6 @@ body {
 @media (max-width: 991.98px) {
     .navbar-collapse {
         border-radius: 20px;
-        margin-top: 1rem;
-        padding: 1rem;
         box-shadow: var(--nav-shadow);
     }
     
