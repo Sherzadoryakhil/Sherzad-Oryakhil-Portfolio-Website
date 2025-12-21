@@ -1,266 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./fav-icon.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav-icon.png" />
     <title>Sherzad Oryakhil Portfolio</title>
     <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="#" style="color: var(--primary-color);">Sherzad Oryakhil</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experience">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-                            <i class="fas fa-moon" id="themeIcon"></i>
-                        </button>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <a
+          class="navbar-brand fw-bold"
+          href="#"
+          style="color: var(--primary-color)"
+          >Sherzad Oryakhil</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button
+                class="theme-toggle"
+                id="themeToggle"
+                aria-label="Toggle dark mode"
+              >
+                <i class="fas fa-moon" id="themeIcon"></i>
+              </button>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
+
     <section class="hero-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h1 class="display-4 fw-bold mb-4">Hello, I'm Sherzad Oryakhil</h1>
-                    <h2 class="h3 mb-4">Software Engineer</h2>
-                    <p class="lead mb-4">I build Web Sites, Web Apps, Database that are fast, accessible, visually appealing, and responsive.</p>
-                    <div class="d-flex gap-3 flex-wrap">
-                        <a href="#projects" class="btn btn-primary">View My Work</a>
-                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-center mt-5 mt-lg-0">
-                    <img src="./profile.jpg" alt="Profile" class="profile-image">
-                </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="display-4 fw-bold mb-4">Hello, I'm</h1>
+            <h2 class="h3 mb-4">Software Engineer</h2>
+            <p class="lead mb-4">
+              I build Web Sites, Web Apps, Database that are fast, accessible,
+              visually appealing, and responsive.
+            </p>
+            <div class="d-flex gap-3 flex-wrap">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-primary">Get In Touch</a>
             </div>
+          </div>
+          <div class="col-lg-6 text-center mt-5 mt-lg-0">
+            <img src="./profile.jpg" alt="Profile" class="profile-image" />
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="section-title">About Me</h2>
-                    <p class="mb-4">I'm Sherzad Oryakhil passionate software engineer with 2+ years of experience building web sites, web applications, databases and digital products. I specialize in creating efficient, scalable solutions while delivering exceptional user experiences.</p>
-                    <p class="mb-4">My journey in tech started with a curiosity about how things work, which evolved into a career building products that make a difference in people's lives.</p>
-                    <p>When I'm not coding, you can find me hiking, reading tech blogs, or contributing to open-source projects.</p>
-                    <p>I can write programs in Python that is very famouse and important in AI Engineering, and try hard to become and AI engineer.</p>
-                    <p>I live in Afghanistan, Kabul.</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="section-title">About Me</h2>
+            <p class="mb-4">
+              I'm Sherzad Oryakhil passionate software engineer with 2+ years of
+              experience building web sites, web applications, databases and
+              digital products. I specialize in creating efficient, scalable
+              solutions while delivering exceptional user experiences.
+            </p>
+            <p class="mb-4">
+              My journey in tech started with a curiosity about how things work,
+              which evolved into a career building products that make a
+              difference in people's lives.
+            </p>
+            <p>
+              When I'm not coding, you can find me hiking, reading tech blogs,
+              or contributing to open-source projects.
+            </p>
+            <p>
+              I can write programs in Python that is very famouse and important
+              in AI Engineering, and try hard to become and AI engineer.
+            </p>
+            <p>I live in Afghanistan, Kabul.</p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="section-title text-center">Technical Skills</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="skill-card">
-                        <div class="text-center mb-3">
-                            <i class="bi bi-gear display-6" style="color: var(--secondary-color);"></i>
-                        </div>
-                        <h4 class="text-center mb-3">Software Engineering</h4>
-                        <p class="text-center">Requirement Engineering | Agile software method | Waterfall software method</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="skill-card">
-                        <div class="text-center mb-3">
-                            <i class="bi bi-code-slash display-6" style="color: var(--secondary-color);"></i>
-                        </div>
-                        <h4 class="text-center mb-3">Python language and libraries</h4>
-                        <p class="text-center">Python | NumPy | Pandas | Matplotlib</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="skill-card">
-                        <div class="text-center mb-3">
-                            <i class="bi bi-database display-6" style="color: var(--secondary-color);"></i>
-                        </div>
-                        <h4 class="text-center mb-3">Database</h4>
-                        <p class="text-center">MySQL | Oracle | Database EER, Design and requirements Engineering</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="skill-card">
-                        <div class="text-center mb-3">
-                            <i class="bi bi-code-slash display-6" style="color: var(--secondary-color);"></i>
-                        </div>
-                        <h4 class="text-center mb-3">Frontend</h4>
-                        <p class="text-center">HTML5 | CSS3 | Javascript | JQuery | Bootstrap</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="skill-card">
-                        <div class="text-center mb-3">
-                            <i class="bi bi-server display-6" style="color: var(--secondary-color);"></i>
-                        </div>
-                        <h4 class="text-center mb-3">Backend</h4>
-                        <p class="text-center">PHP | Laravel</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="skill-card">
-                        <div class="text-center mb-3">
-                            <i class="bi bi-tools display-6" style="color: var(--secondary-color);"></i>
-                        </div>
-                        <h4 class="text-center mb-3">Tools & Others</h4>
-                        <p class="text-center">Visual Studio Code | PyCharm | Thoony | Github | </p>
-                    </div>
-                </div>
+    <section id="skills" class="section py-5 bg-light">
+      <div class="container">
+        <h2 class="section-title text-left">Technical Skills</h2>
+        <div class="row">
+          <div class="col-md-3 mb-4">
+            <div class="card text-center p-4 h-100 skill-card">
+              <i class="devicon-python-plain tech-icon"></i>
+              <h5>Python</h5>
             </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card text-center p-4 h-100 skill-card">
+               <i class="devicon-html5-plain tech-icon colored"></i>
+              <h5>HTML5</h5>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card text-center p-4 h-100 skill-card">
+               <i class="devicon-css3-plain tech-icon colored"></i>
+              <h5>CSS3</h5>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card text-center p-4 h-100 skill-card">
+               <i class="devicon-javascript-plain tech-icon colored"></i>
+              <h5>JavaScript</h5>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card text-center p-4 h-100 skill-card">
+               <i class="devicon-bootstrap-plain tech-icon colored"></i>
+              <h5>Bootstrap</h5>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card text-center p-4 h-100 skill-card">
+               <i class="devicon-jquery-plain tech-icon colored"></i>
+              <h5>JQuery</h5>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card text-center p-4 h-100 skill-card">
+               <i class="devicon-php-plain tech-icon colored"></i>
+              <h5>PHP</h5>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card text-center p-4 h-100 skill-card">
+               <i class="devicon-laravel-plain tech-icon colored"></i>
+              <h5>Laravel</h5>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card text-center p-4 h-100 skill-card">
+              <i class="devicon-mysql-plain tech-icon colored"></i>
+              <h5>MySQL</h5>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card text-center p-4 h-100 skill-card">
+              <i class="devicon-oracle-original tech-icon colored"></i>
+              <h5>Oracle</h5>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card text-center p-4 h-100 skill-card">
+               <i class="devicon-github-plain tech-icon colored"></i>
+              <h5>Github</h5>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-5">
-        <div class="container">
-            <h2 class="section-title text-center">Featured Projects</h2>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="card project-card">
-                        <img src="./pamircola.png" class="card-img-top project-image project1" alt="Project 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Pamircola Group of companies website</h5>
-                            <p class="card-text">A Frontend web site that is designed for Pamircola company </p>
-                            <div class="d-flex gap-2 flex-wrap">
-                                <span class="badge bg-primary">HTML5</span>
-                                <span class="badge bg-primary">CSS3 | Bootstrap</span>
-                                <span class="badge bg-primary">Javascript | JQuery</span>
-                                <span class="badge bg-primary"><a href="https://sherzadoryakhil.github.io/Pamir-Cola-Group-of-Companies/index.html" target="_blank" rel="noopener noreferrer">
-                                  Open Pamir Cola Group Website
-                                </a>See The Website
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+    <section id="projects" class="py-5 section bg-light">
+      <div class="container">
+        <h2 class="section-title text-left">My Projects</h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="card project-card">
+              <img
+                src="./pamircola.png"
+                class="card-img-top project-image project1"
+                alt="Project 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pamircola Group of companies website</h5>
+                <p class="card-text">
+                  A Frontend web site that is designed for Pamircola company
+                </p>
+                <p>
+                  <a
+                    href="https://sherzadoryakhil.github.io/Pamir-Cola-Group-of-Companies/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Open Website
+                  </a>
+                </p>
+                <div class="d-flex gap-2 flex-wrap">
+                  <span class="badge bg-primary">HTML5</span>
+                  <span class="badge bg-primary">CSS3 | Bootstrap</span>
+                  <span class="badge bg-primary">Javascript | JQuery</span>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Experience Section -->
     <section id="experience" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="section-title text-center">Experience</h2>
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <h4>Student of university</h4>
-                            <h5 class="text-primary"></h5>
-                            <p class="text-muted"></p>
-                            <p>Now I am studying and learning more about software devlopement and create a lot of projects.</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title text-left">Experience</h2>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="timeline">
+              <div class="timeline-item">
+                <h4>Student of university</h4>
+                <h5 class="text-primary"></h5>
+                <p class="text-muted"></p>
+                <p>
+                  Now I am studying and learning more about software devlopement
+                  and create a lot of projects.
+                </p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
+    
     <!-- Contact Section -->
-    <section id="contact" class="py-5 contact-section">
-        <div class="container">
-            <h2 class="section-title text-center">Get In Touch</h2>
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div>
-                        <div class="card-body p-2 p-md-5">
-                                <div class="text-center">
-                                    <a href="mailto:sherzadoryakhil12@gmail.com" class="btn btn-primary btn-lg">Email to us</a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="text-center mt-5">
-                        <div class="social-links">
-                            <a href="#" title="GitHub"><i class="bi bi-github"></i></a>
-                            <a href="https://x.com/SherzadOryakhil?t=bpDpOj02vtVV-IjivXJVDQ&s=09" title="X">
-                                <!-- X (Twitter) Logo SVG -->
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 1200 1227">
-                                  <path d="M714.163 519.284 1160.89 0H1049.05L667.137 442.254 364.448 0H0l468.222 681.821L0 1226.92h111.843l405.644-483.855 322.961 483.855H1200L714.163 519.284Zm-143.564 168.74-47.032-67.413L152.454 80h156.947l302.476 433.924 47.032 67.412L1047.52 1147H890.572L570.599 688.024Z"/>
-                                </svg>
-                            </a>
-                            <a href="https://www.facebook.com/sherzad.oryakhil" title="Facebook"><i class="bi bi-facebook"></i></a>
-                            <a href="https://www.linkedin.com/in/sherzad-oryakhil-3bb15b390" title="LinkedIn" target="_blank" rel="noopener noreferrer">
-                              <i class="bi bi-linkedin"></i>
-                            </a>
-
-                            <a href="https://wa.me/+93791322756" title="Whatsapp"><i class="bi bi-whatsapp"></i></a>
-                            <a href="tel:+93791322756" title="Phone Number"><i class="bi bi-phone"></i></a>
-                        </div>
-                    </div>
+    <section id="contact" class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <div class="mt-5">
+              <div class="row">
+                <h2 class="section-title text-left">Get In Touch</h2>
+                <div class="col-md-6">
+                  <h4>Contact Information</h4>
+                  <p>
+                    <a href="mailto:sherzadoryakhil12@gmail.com">Send Email</a>
+                  </p>
+                  <p>
+                    <i class="fas fa-envelope me-2"></i
+                    >sherzadoryakhil12@gmail.com
+                  </p>
+                  <p></p>
+                  <p><i class="fas fa-phone me-2"></i> +93 791322756</p>
+                  <p>
+                    <i class="fas fa-map-marker-alt me-2"></i> Afghanistan,Kabul
+                  </p>
+                  <h5 class="mt-4">Follow Me</h5>
+                  <div class="d-flex gap-3">
+                    <a
+                      href="https://x.com/SherzadOryakhil?t=bpDpOj02vtVV-IjivXJVDQ&s=09"
+                      class="text-decoration-none"
+                      ><i class="fab fa-github text-dark fa-2x"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/sherzad-oryakhil-3bb15b390"
+                      class="text-decoration-none"
+                      ><i class="fab fa-linkedin text-dark fa-2x"></i
+                    ></a>
+                    <a
+                      href="https://www.facebook.com/sherzad.oryakhil"
+                      class="text-decoration-none"
+                      ><i class="fab fa-facebook text-dark fa-2x"></i
+                    ></a>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="py-4">
-        <div class="container text-center">
-            <p class="mb-0">&copy; 2025 Sherzad Oryakhil. All rights reserved.</p>
-        </div>
+      <div class="container text-center">
+        <p class="mb-0">&copy; 2025 Sherzad Oryakhil. All rights reserved.</p>
+      </div>
     </footer>
 
     <!-- Bootstrap & JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
     <script src="./script.js"></script>
-</body>
-
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
