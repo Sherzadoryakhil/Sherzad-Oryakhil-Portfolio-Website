@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./fav-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico" />
     <title>Sherzad Oryakhil Portfolio</title>
     <!-- Bootstrap 5 CSS -->
     <link
@@ -31,32 +31,25 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <div class="container">
-        <a
-          class="navbar-brand fw-bold"
-          href="#"
-          style="color: var(--primary-color)"
-          >Sherzad Oryakhil</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Eleventh navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sherzad Oryakhil</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="true" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+        <div class="navbar-collapse collapse" id="navbarsExample09">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link active" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#skills">Skills</a>
@@ -79,28 +72,39 @@
                 <i class="fas fa-moon" id="themeIcon"></i>
               </button>
             </li>
-          </ul>
         </div>
       </div>
     </nav>
-
     <!-- Hero Section -->
-
     <section class="hero-section">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6">
-            <h1 class="display-4 fw-bold mb-4">Hello, I'm</h1>
-            <h2 class="h3 mb-4">Software Engineer</h2>
-            <p class="lead mb-4">
-              I build Web Sites, Web Apps, Database that are fast, accessible,
-              visually appealing, and responsive.
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="display-6 fw-bold mb-3">
+              Hi, I’m Sherzad Oryakhil<br />
+              Software Engineer
+            </h1>
+
+            <p class="lead text-light mb-4">
+              I build modern, responsive, and user-friendly websites using the
+              latest web technologies.
             </p>
-            <div class="d-flex gap-3 flex-wrap">
-              <a href="#projects" class="btn btn-primary">View My Work</a>
-              <a href="#contact" class="btn btn-primary">Get In Touch</a>
+
+            <div
+              class="d-flex gap-3 justify-content-center justify-content-lg-start"
+            >
+              <a href="#projects" class="btn btn-primary btn-lg rounded-pill">
+                View Work
+              </a>
+              <a
+                href="#contact"
+                class="btn btn-outline-light btn-lg rounded-pill"
+              >
+                Contact Me
+              </a>
             </div>
           </div>
+
           <div class="col-lg-6 text-center mt-5 mt-lg-0">
             <img src="./profile.jpg" alt="Profile" class="profile-image" />
           </div>
@@ -109,40 +113,52 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-5">
+
+    <!-- Page Header -->
+<section class="py-5 bg-white text-dark text-center">
+  <div class="container">
+    <h1 class="fw-bold">About Me</h1>
+<p class="text-muted mt-2">What we offer to build your future</p>
+</div>
+</section>
+    <section id="about" class="py-5 bg-light text-dark">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="section-title">About Me</h2>
-            <p class="mb-4">
+            <p class="mb-4 lead">
               I'm Sherzad Oryakhil passionate software engineer with 2+ years of
               experience building web sites, web applications, databases and
               digital products. I specialize in creating efficient, scalable
               solutions while delivering exceptional user experiences.
             </p>
-            <p class="mb-4">
+            <p class="mb-4 lead">
               My journey in tech started with a curiosity about how things work,
               which evolved into a career building products that make a
               difference in people's lives.
             </p>
-            <p>
+            <p class="lead">
               When I'm not coding, you can find me hiking, reading tech blogs,
               or contributing to open-source projects.
             </p>
-            <p>
+            <p class="lead">
               I can write programs in Python that is very famouse and important
               in AI Engineering, and try hard to become and AI engineer.
             </p>
-            <p>I live in Afghanistan, Kabul.</p>
+            <p class="lead">I live in Afghanistan, Kabul.</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Skills Section -->
+     <section class="py-5 bg-white text-dark text-center">
+  <div class="container">
+    <h1 class="fw-bold">My Skills</h1>
+<p class="text-muted mt-2">What we offer to build your future</p>
+</div>
+</section>
     <section id="skills" class="section py-5 bg-light">
       <div class="container">
-        <h2 class="section-title text-left">Technical Skills</h2>
         <div class="row">
           <div class="col-md-3 mb-4">
             <div class="card text-center p-4 h-100 skill-card">
@@ -152,49 +168,43 @@
           </div>
           <div class="col-md-3 mb-4">
             <div class="card text-center p-4 h-100 skill-card">
-               <i class="devicon-html5-plain tech-icon colored"></i>
+              <i class="devicon-html5-plain tech-icon colored"></i>
               <h5>HTML5</h5>
             </div>
           </div>
           <div class="col-md-3 mb-4">
             <div class="card text-center p-4 h-100 skill-card">
-               <i class="devicon-css3-plain tech-icon colored"></i>
+              <i class="devicon-css3-plain tech-icon colored"></i>
               <h5>CSS3</h5>
             </div>
           </div>
           <div class="col-md-3 mb-4">
             <div class="card text-center p-4 h-100 skill-card">
-               <i class="devicon-javascript-plain tech-icon colored"></i>
+              <i class="devicon-javascript-plain tech-icon colored"></i>
               <h5>JavaScript</h5>
             </div>
           </div>
           <div class="col-md-3 mb-4">
             <div class="card text-center p-4 h-100 skill-card">
-               <i class="devicon-bootstrap-plain tech-icon colored"></i>
+              <i class="devicon-bootstrap-plain tech-icon colored"></i>
               <h5>Bootstrap</h5>
             </div>
           </div>
           <div class="col-md-3 mb-4">
             <div class="card text-center p-4 h-100 skill-card">
-               <i class="devicon-jquery-plain tech-icon colored"></i>
+              <i class="devicon-jquery-plain tech-icon colored"></i>
               <h5>JQuery</h5>
             </div>
           </div>
           <div class="col-md-3 mb-4">
-<div class="card text-center p-4 h-100 skill-card">
-               <i class="devicon-react-plain tech-icon colored"></i>
-              <h5>React</h5>
-            </div>
-          </div>
-          <div class="col-md-3 mb-4">
             <div class="card text-center p-4 h-100 skill-card">
-               <i class="devicon-php-plain tech-icon colored"></i>
+              <i class="devicon-php-plain tech-icon colored"></i>
               <h5>PHP</h5>
             </div>
           </div>
           <div class="col-md-3 mb-4">
             <div class="card text-center p-4 h-100 skill-card">
-               <i class="devicon-laravel-plain tech-icon colored"></i>
+              <i class="devicon-laravel-plain tech-icon colored"></i>
               <h5>Laravel</h5>
             </div>
           </div>
@@ -205,12 +215,6 @@
             </div>
           </div>
           <div class="col-md-3 mb-4">
-<div class="card text-center p-4 h-100 skill-card">
-              <i class="devicon-postgresql-plain tech-icon colored"></i>
-              <h5>PostgreSQL</h5>
-            </div>
-          </div>
-          <div class="col-md-3 mb-4">
             <div class="card text-center p-4 h-100 skill-card">
               <i class="devicon-oracle-original tech-icon colored"></i>
               <h5>Oracle</h5>
@@ -218,7 +222,7 @@
           </div>
           <div class="col-md-3 mb-4">
             <div class="card text-center p-4 h-100 skill-card">
-               <i class="devicon-github-plain tech-icon colored"></i>
+              <i class="devicon-github-plain tech-icon colored"></i>
               <h5>Github</h5>
             </div>
           </div>
@@ -227,9 +231,14 @@
     </section>
 
     <!-- Projects Section -->
+     <section class="py-5 bg-white text-dark text-center">
+  <div class="container">
+    <h1 class="fw-bold">My projects</h1>
+<p class="text-muted mt-2">What we offer to build your future</p>
+</div>
+</section>
     <section id="projects" class="py-5 section bg-light">
       <div class="container">
-        <h2 class="section-title text-left">My Projects</h2>
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="card project-card">
@@ -245,11 +254,10 @@
                 </p>
                 <p>
                   <a
-                    href="https://sherzadoryakhil.github.io/Pamir-Cola-Group-of-Companies/index.html"
-                    target="_blank"
+                    href="./projects-view1.html"
                     rel="noopener noreferrer"
                   >
-                    Open Website
+                    See Details
                   </a>
                 </p>
                 <div class="d-flex gap-2 flex-wrap">
@@ -265,35 +273,41 @@
     </section>
 
     <!-- Experience Section -->
+    <section class="py-5 bg-white text-dark text-center">
+  <div class="container">
+    <h1 class="fw-bold">My Expericence</h1>
+<p class="text-muted mt-2">What we offer to build your future</p>
+</div>
+</section>
     <section id="experience" class="py-5 bg-light">
       <div class="container">
-        <h2 class="section-title text-left">Experience</h2>
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <div class="timeline">
-              <div class="timeline-item">
                 <h4>Student of university</h4>
                 <h5 class="text-primary"></h5>
                 <p class="text-muted"></p>
-                <p>
+                <p class="lead">
                   Now I am studying and learning more about software devlopement
                   and create a lot of projects.
                 </p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </section>
-    
+
     <!-- Contact Section -->
+     <section class="py-5 bg-white text-dark text-center">
+  <div class="container">
+    <h1 class="fw-bold">Contact Me</h1>
+<p class="text-muted mt-2">What we offer to build your future</p>
+</div>
+</section>
     <section id="contact" class="py-5 bg-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 mx-auto">
             <div class="mt-5">
               <div class="row">
-                <h2 class="section-title text-left">Get In Touch</h2>
                 <div class="col-md-6">
                   <h4>Contact Information</h4>
                   <p>
@@ -306,9 +320,9 @@
                   <p></p>
                   <p><i class="fas fa-phone me-2"></i> +93 791322756</p>
                   <p>
-                    <i class="fas fa-map-marker-alt me-2"></i> Afghanistan,Kabul
+                    <i class="fas fa-map-marker-alt me-2"></i> Afghanistan, Kabul
                   </p>
-                  <h5 class="mt-4">Follow Me</h5>
+                  <h5 class="mt-4">Follow Me On</h5>
                   <div class="d-flex gap-3">
                     <a
                       href="https://x.com/SherzadOryakhil?t=bpDpOj02vtVV-IjivXJVDQ&s=09"
@@ -335,7 +349,8 @@
     </section>
 
     <!-- Footer -->
-    <footer class="py-4">
+     
+    <footer class="py-4 bg-white text-dark">
       <div class="container text-center">
         <p class="mb-0">&copy; 2025 Sherzad Oryakhil. All rights reserved.</p>
       </div>
@@ -350,4 +365,3 @@
     <script src="./script.js"></script>
   </body>
 </html>
-
