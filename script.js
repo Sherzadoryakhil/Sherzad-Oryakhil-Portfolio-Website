@@ -1,4 +1,3 @@
-
 // Theme toggle functionality
 const themeToggle = document.getElementById("themeToggle");
 const themeIcon = document.getElementById("themeIcon");
@@ -7,7 +6,7 @@ const html = document.documentElement;
 // Check for saved theme or prefer-color-scheme
 const savedTheme =
   localStorage.getItem("theme") ||
-  (window.matchMedia("(prefers-color-scheme: dark)").matches
+  (window.matchMedia("(prefers-color-scheme: light)").matches
     ? "dark"
     : "light");
 
